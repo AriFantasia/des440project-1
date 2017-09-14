@@ -57,7 +57,7 @@ img {
 }
 
 /*Here's where you would put your Google Fonts import*/
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700|Source+Sans+Pro:200,300,400,400i,600,700,900|Source+Serif+Pro:400,600,700');
+@import url('https://fonts.google.com/specimen/Lato?selection.family=Lato:700,900|Source+Sans+Pro:200,300,400,400i,600,700,900|Source+Serif+Pro:400,600,700');
 
 
 /* BOX MODEL SETTING FOR ALL ELEMENTS BY DEFAULT
@@ -72,9 +72,9 @@ html {
 /* END BOX MODEL SETTINGS */
 
 body {
-  font-size: 16px; /* Base Size */
+  font-size: 14px; /* Base Size */
   /*Setting the base font family*/
-  font-family: "Source Sans Pro", Verdana, sans-serif;
+  font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -82,7 +82,7 @@ body {
 /*Here's a sample media query for you. This one is for desktop styles.*/
 /*@media only screen and (min-width: 960px) {
 
-}
+}*/
 
 /* ==========================================================================
    Helper classes

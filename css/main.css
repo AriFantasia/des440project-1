@@ -57,7 +57,7 @@ img {
 }
 
 /*Here's where you would put your Google Fonts import*/
-@import url('https://fonts.google.com/specimen/Lato?selection.family=Lato:700,900|Source+Sans+Pro:200,300,400,400i,600,700,900|Source+Serif+Pro:400,600,700');
+@import url('https://fonts.google.com/specimen/Lato?selection.family=Lato:400,900|Ubuntu:700|Source+Serif+Pro:400,600,700');
 
 
 /* BOX MODEL SETTING FOR ALL ELEMENTS BY DEFAULT
@@ -72,11 +72,39 @@ html {
 /* END BOX MODEL SETTINGS */
 
 body {
-  font-size: 14px; /* Base Size */
+  font-size: 15px; /* Base Size */
   /*Setting the base font family*/
-  font-family: 'Lato', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  color: #eee;
   margin: 0;
   padding: 0;
+  background-color: #222;
+}
+
+h1 {
+  font-size: 32px; /* Base Size */
+  /*Setting the base font family*/
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  color: #eee;
+  margin: 0;
+  padding: 0;
+}
+
+h5 {
+  font-size: 18px; /* Base Size */
+  /*Setting the base font family*/
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  color: rgb(160,160,160);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h5 {
+  max-width: 1020px;
+  text-align: center;
 }
 
 /*Here's a sample media query for you. This one is for desktop styles.*/

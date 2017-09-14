@@ -71,6 +71,10 @@ html {
 }
 /* END BOX MODEL SETTINGS */
 
+/* Columns http://foundation.zurb.com/sites/docs/grid.html */
+
+
+/* Text */
 body {
   font-size: 15px; /* Base Size */
   /*Setting the base font family*/

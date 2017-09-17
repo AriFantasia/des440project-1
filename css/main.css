@@ -71,10 +71,58 @@ html {
 }
 /* END BOX MODEL SETTINGS */
 
-/* Columns http://foundation.zurb.com/sites/docs/grid.html */
+/* Columns */
+.col-2 {
+  width: 16.666666%;
+}
+
+.col-3 {
+  width: 33.333333%;
+}
+
+.col-4 {
+  width: 25%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-8 {
+  width: 66.666666%;
+}
+
+.col-9 {
+  width: 75%;
+  text-align: center;
+  float: right;
+  background: url(text-texture.png);
+}
+
+#left {
+  width: 75%;
+  text-align: center;
+  float: left;
+}
+
+.col-12 {
+  width: 100%;
+  text-align: center;
+}
+
 
 
 /* Text */
+.bleed {
+    width: 100%;
+    background-color: #222
+}
+
+.live-area {
+  width: 1024px;
+  margin: auto 0;
+}
+
 body {
   font-size: 15px; /* Base Size */
   /*Setting the base font family*/
@@ -83,7 +131,7 @@ body {
   color: #eee;
   margin: 0;
   padding: 0;
-  background-color: #222;
+  max-width: 1440px;
 }
 
 h1 {
@@ -107,8 +155,15 @@ h5 {
 }
 
 h1, h5 {
-  max-width: 1020px;
+  max-width: 1024px;
   text-align: center;
+}
+
+p {
+  max-width: 235px;
+  color: #eee;
+  margin: 0;
+  padding: 0;
 }
 
 /*Here's a sample media query for you. This one is for desktop styles.*/

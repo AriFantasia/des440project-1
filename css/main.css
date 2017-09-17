@@ -82,6 +82,7 @@ html {
 
 .col-4 {
   width: 25%;
+  padding-top: auto 0;
 }
 
 .col-6 {
@@ -96,7 +97,7 @@ html {
   width: 75%;
   text-align: center;
   float: right;
-  background: url(text-texture.png);
+  padding-top: 280px;
 }
 
 #left {
